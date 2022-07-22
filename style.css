@@ -1,0 +1,28 @@
+.container {
+    background-color: gray;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.btn {
+    background-color: blue;
+     color: white;
+    border-radius: 15px;
+    border:none;
+    padding: 15px;
+    margin: 90px 10px 20px 30px; 
+}
+.btnn {
+    margin-left: 100px;
+}
+
+ @media (max-width: 600px) {
+    .btn {
+        margin: 90px 1px 20px 20px;
+    }
+    .btnn {
+        margin: 0 10px 0px 2px;
+    } 
+}   
